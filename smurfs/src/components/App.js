@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import GetSmurf from './forms/GetSmurf';
+import AddSmurfForm from './forms/AddSmurfForm';
 import "./App.css";
 class App extends Component {
   render() {
@@ -8,6 +10,9 @@ class App extends Component {
         <div>Welcome to your state management version of Smurfs!</div>
         <div>Start inside of your `src/index.js` file!</div>
         <div>Have fun!</div>
+        <div><GetSmurf /></div>
+        <div><AddSmurfForm/></div>
+        
       </div>
     );
   }
